@@ -54,7 +54,6 @@ public class MainActivity extends AppCompatActivity {
                         binding.toolTv.setText("Ripalay");
                         binding.toolTv.setTextSize(22);
                         getSupportFragmentManager().beginTransaction().replace(R.id.container, new AccountFragment()).commit();
-
                         break;
                 }
                 return true;
