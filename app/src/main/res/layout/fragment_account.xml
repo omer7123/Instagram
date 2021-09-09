@@ -22,6 +22,7 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <ImageView
+                android:id="@+id/accAva"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_acc_ava" />
@@ -144,6 +145,7 @@
                 android:textSize="12sp" />
 
             <com.google.android.material.button.MaterialButton
+                android:id="@+id/editProfile"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
