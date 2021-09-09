@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/fotoIv"
+            android:layout_width="match_parent"
+            android:layout_height="375dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_lenta" />
+
+        <TextView
+            android:id="@+id/descriptionTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/acme"
+            android:padding="15dp"
+            android:text=
+                "joshua_l The game in Japan was amazing and I want to share some photos"
+            android:textColor="@color/black"
+            android:textSize="13sp" />
+        <TextView
+            android:id="@+id/dateTv"
+            android:textColor="@color/gray"
+            android:text="September 19"
+            android:layout_marginStart="6dp"
+            android:padding="9dp"
+            android:textSize="11sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</LinearLayout>
