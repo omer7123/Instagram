@@ -11,6 +11,7 @@ public class ViewPagerAdapter extends FragmentStateAdapter {
 
     public void setList(ArrayList<Fragment> list) {
         this.list = list;
+        //notifyDataSetChanged();
     }
 
     public ViewPagerAdapter(@NonNull Fragment fragment) {
